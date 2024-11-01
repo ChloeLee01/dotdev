@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/common/Header";
 import Footer from "./components/common/Footer";
 import Workflow from "./components/Features/Workflow";
+import Pricing from "./components/Features/Pricing";
 
 // BrowserRouter: 브라우저에 이동을 컨트롤 하는 전체 컴포넌트
 // Routes: 페이지 이동을 위한 컴포넌트
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/dotdev" element={<Home />} />
           <Route path="/features" element={<Features />} />
           <Route path="/workflow" element={<Workflow />} />
+          <Route path="/pricing" element={<Pricing />} />
         </Routes>
 
         <Footer />

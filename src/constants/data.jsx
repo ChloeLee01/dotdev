@@ -15,8 +15,8 @@ import user6 from "../assets/profile-pictures/user6.jpg";
 export const navItems = [
   { label: "Home", to: "/dotdev" },
   { label: "Features", to: "/features" },
-  { label: 'Workflow', to: '/workflow' },
-  // { label: 'Pricing', to: 'pricing' },
+  { label: "Workflow", to: "/workflow" },
+  { label: "Pricing", to: "/pricing" },
   // { label: 'Testimonials', to: 'testimonials' },
 ];
 
@@ -114,21 +114,25 @@ export const checklistItems = [
     title: "Code merge made easy",
     description:
       "Track the performance of your VR apps and gain insights into user behavior.",
+    src: "https://assets.linearb.io/image/upload/v1720000000/continuous_merge_59d305e754.png",
   },
   {
     title: "Review code without worry",
     description:
       "Track the performance of your VR apps and gain insights into user behavior.",
+    src: "https://miro.medium.com/v2/resize:fit:760/1*sHWUVOtWOMKNcAee18DeKw.png",
   },
   {
     title: "AI Assistance to reduce time",
     description:
       "Track the performance of your VR apps and gain insights into user behavior.",
+    src: "https://vegavid.com/blog/wp-content/uploads/2024/03/AI-Assistant-Shaping-the-Next-Wave-of-Digital-Interaction-.png",
   },
   {
     title: "Share work in minutes",
     description:
       "Track the performance of your VR apps and gain insights into user behavior.",
+    src: "https://www.12dsynergy.com/wp-content/uploads/2017/07/Worksharing-Image.jpg",
   },
 ];
 
